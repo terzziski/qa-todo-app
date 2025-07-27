@@ -1,0 +1,16 @@
+{
+  "name": "qa-todo-app",
+  "version": "1.0.0",
+  "description": "QA test project with React frontend and Express backend",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
